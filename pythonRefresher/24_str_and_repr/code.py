@@ -18,6 +18,6 @@ class Person:
 
 bob = Person("Bob", 35)
 
-# Prints the 'bob' object that changes to you use __str__.
+# Prints the 'bob' object that changes when you use __str__.
 print(bob)
 
