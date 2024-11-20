@@ -1,11 +1,13 @@
 class ClassTest:
     # An instance of the class is needed to call an instance method.
-    # 'self' is the object of a class. Most widely used.
+    # When 'self' is the object of a class, it is an instance method. 
+    # Instance methods are the most widely used.
     def instance_method(self):
         print(f"Called instance_method of {self}")
 
-    # Class methods used often as 'factories.' 
-    # 'cls' is the class itself.
+    # Class methods used often as 'factories.'
+    # Class methods do not need an instance of the class.
+    # The 'cls' parameter is the class itself.
     @classmethod
     def class_method(cls):
         print(f"Called class_method of {cls}")
