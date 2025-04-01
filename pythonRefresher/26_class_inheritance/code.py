@@ -7,7 +7,7 @@ class Device:
 
     def __str__(self):
         # !r calls the repr method of self.name
-        # so that is shows with quotes. 
+        # so that it shows with quotes. 
         return f"Device {self.name!r} ({self.connected_by})"
 
     def disconnect(self):
