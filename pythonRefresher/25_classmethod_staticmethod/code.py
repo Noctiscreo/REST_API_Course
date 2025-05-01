@@ -14,7 +14,7 @@ class ClassTest:
 
     # Static methods don't take any class info or objects.
     # Static methods are purely for organizational use. They don't need
-    # a class to be insantiated. Rarely used.
+    # a class to be instantiated. Rarely used.
     @staticmethod
     def static_method():
         print("Called static_method.")
