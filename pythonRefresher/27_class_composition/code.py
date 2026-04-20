@@ -9,4 +9,5 @@ class Bookshelf:
 shelf = Bookshelf(300)
 
 print(shelf)
+print(shelf)
 
